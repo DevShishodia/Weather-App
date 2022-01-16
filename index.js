@@ -6,7 +6,7 @@ const ACCES_KEY = "09cba7b0c8244664b97122257221601";
 
 
 
-    fetch(`http://api.weatherapi.com/v1/current.json?key= ${ACCES_KEY}&q=MEERUT&aqi=yes`)
+    fetch(`https://api.weatherapi.com/v1/current.json?key= ${ACCES_KEY}&q=MEERUT&aqi=yes`)
 		.then((response) => {
 		return response.json();
 		})
